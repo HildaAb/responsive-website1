@@ -30,7 +30,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  line-height: 1.7;
+  line-height: 1.5;
   color: var(--color-white);
   background-color: var(--color-bg);
 }
@@ -41,6 +41,11 @@ nav {
   position: fixed;
   top: 0;
   z-index: 11;
+}
+
+.windoww-scroll {
+  background: var(--color-primary);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .nav-container {
@@ -98,7 +103,7 @@ h5 {
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
 }
 
 h2 {
@@ -165,4 +170,121 @@ header {
 }
 .header-left p {
   margin: 1rem 0 2.4rem;
+}
+/*categories*/
+
+.categories {
+  background: var(--color-bg1);
+  margin-top: 10rem;
+  height: 29rem;
+}
+
+.categories h1 {
+  line-height: 1;
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+}
+
+.categories-container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.categories-left {
+  margin-right: 4rem;
+}
+
+.categories-left p {
+  margin: 1rem 0 3rem;
+}
+
+.categories-right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  margin-top: 5rem;
+}
+
+.category {
+  background: var(--color-bg2);
+  padding: 2rem;
+  border-radius: 2rem;
+  transition: var(--transition);
+}
+
+.category:hover {
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.category:nth-child(2) .category-icon {
+  background: var(--color-danger);
+}
+
+.category:nth-child(3) .category-icon {
+  background: var(--color-success);
+}
+
+.category:nth-child(4) .category-icon {
+  background: var(--color-varning);
+}
+
+.category:nth-child(5) .category-icon {
+  background: var(--color-success);
+}
+
+.icon-article {
+  width: 40px;
+  height: 40px;
+}
+
+.category-icon {
+  background: var(--color-primary);
+  padding: 30px 20px 0 20px;
+  border-radius: 0.8rem;
+}
+
+.category h5 {
+  margin: 2rem 0 1rem;
+}
+
+.category p {
+  font-size: 0.85rem;
+}
+
+/*popular courses*/
+
+.courses {
+  margin-top: 20rem;
+}
+
+.courses-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.course-img {
+  width: 100%;
+  height: 200px;
+}
+
+.course {
+  background: var(--color-bg1);
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.course:hover {
+  background: transparent;
+  border-color: var(--color-primary);
+}
+
+.course-info {
+  padding: 2rem;
+}
+
+.course-info p {
+  margin: 1.2rem 0 2rem;
+  font-size: 0.9rem;
 }
