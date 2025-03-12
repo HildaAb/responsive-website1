@@ -78,7 +78,6 @@ nav button {
 .nav-img-close {
   width: 30px;
   height: 30px;
-
   padding: 10px;
 }
 
@@ -539,5 +538,48 @@ footer ul li a:hover {
   .nav-menu li a:hover {
     background: var(--color-bg2);
     color: var(--color-white);
+  }
+
+  header {
+    height: 52vh;
+    margin-bottom: 4rem;
+  }
+
+  .header-container {
+    gap: 0;
+    padding-bottom: 3rem;
+  }
+
+  .categories {
+    height: auto;
+  }
+
+  .categories-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .categories-left {
+    margin-right: 0;
+  }
+
+  .courses {
+    margin-top: 0;
+  }
+
+  .courses-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .faqs-container {
+    grid-template-columns: 1fr;
+  }
+
+  .faq {
+    padding: 1.5rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
   }
 }
