@@ -6,12 +6,14 @@ window.addEventListener("scroll", () => {
 
 const faqs = document.querySelectorAll(".faq");
 
+/*faq*/
 faqs.forEach((faq) => {
   faq.addEventListener("click", () => {
     faq.classList.toggle("open");
   });
 });
 
+/*hamburgermenu*/
 const menu = document.querySelector(".nav-menu");
 const menuBtn = document.querySelector("#open-menu-btn");
 const closeBtn = document.querySelector("#close-menu-btn");
