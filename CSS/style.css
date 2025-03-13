@@ -455,6 +455,7 @@ footer ul li a:hover {
 @media (max-width: 1024px) {
   .container {
     width: var(--conatiner-width-md);
+    margin: 2rem;
   }
 
   h1 {
@@ -605,15 +606,18 @@ footer ul li a:hover {
   }
 
   header h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    text-align: start;
   }
 
   .header-left p {
-    margin: 1rem 3rem 2rem;
+    text-align: start;
+    max-width: 20rem;
   }
 
   header .btn-primary {
     margin-bottom: 1rem;
+    margin-left: -28em;
     padding: 10px;
   }
 
@@ -627,9 +631,12 @@ footer ul li a:hover {
     border-radius: 1rem;
   }
 
-  .category-icon {
-    margin-top: 4px;
-    display: inline-block;
+  .icon-article {
+    margin-top: 1rem;
+  }
+
+  .course-img {
+    margin-top: -10px;
   }
 
   .courses-container {

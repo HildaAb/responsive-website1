@@ -119,7 +119,7 @@
   margin-left: 0.4rem;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .about-achievements {
     margin-top: 2rem;
   }
@@ -128,8 +128,17 @@
     grid-template-columns: 1fr;
     gap: 4rem;
   }
+  .about-achievements-right h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
 
-  .about-achievements-left {
+  .about-achievements-right h1 {
+    font-size: 4rem;
+  }
+  .about-achievements-right p {
+    font-size: 1.8rem;
   }
 
   .about-image {
@@ -164,6 +173,19 @@
 }
 
 @media (max-width: 600px) {
+  .about-image {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 1rem;
+  }
+
+  .about-achievements-right h1 {
+    font-size: 2rem;
+  }
+  .about-achievements-right p {
+    font-size: 1rem;
+  }
+
   .achievements-cards {
     grid-template-columns: 1fr 1fr;
     gap: 0.7rem;
